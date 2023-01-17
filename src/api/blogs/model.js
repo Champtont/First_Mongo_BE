@@ -7,8 +7,6 @@ const blogsSchema = new Schema(
     category: { type: String, required: true },
     title: { type: String, required: true },
     cover: { type: String, required: true },
-    dateOfBirth: { type: Date, required: true },
-    age: { type: Number, required: true },
     readTime: {
       value: { type: Number },
       unit: { type: String },
